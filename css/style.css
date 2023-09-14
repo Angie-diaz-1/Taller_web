@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 :root {
@@ -105,3 +106,13 @@ body {
     width: 73%;
 }
 
+.center{
+    display: flex;
+    margin-top: 2%;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.center .tarjeta .img{
+ width: 250px;
+}
